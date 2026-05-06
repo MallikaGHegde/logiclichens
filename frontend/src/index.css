@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Prevent token icons from selecting during drag/click. */
+* {
+  user-select: none;
+}
+
